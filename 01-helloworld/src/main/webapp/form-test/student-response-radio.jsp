@@ -7,11 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Convert a string to upper case : <%= new String("Hello World").toUpperCase() %>
-	<br><br>
-	25 * 4 = <%= 25*4 %>
-	<br><br>
-	Is 75 less than 70? <%= 75<70 %>
+	<h3>First Name : ${param.firstName}</h3>
 	<br>
+	<h3>Last Name : ${param.lastName}</h3>
+	<br>
+	<h3>Favorite Language : ${param.favLang}</h3>
 </body>
 </html>
