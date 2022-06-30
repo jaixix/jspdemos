@@ -5,15 +5,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hello World</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h2 align="center">Hello world</h2>
+	<h2>Hello World</h2>
+	<c:set var="myDate" value="<%= new java.util.Date() %>" />
 	<br><br><hr>
-	<h3 align="center">The time is <%= new java.util.Date() %></h3>
+	<h2>New Date is : ${myDate}</h2>
 	<br>
-	<c:set var="newTime" value="<%= new java.util.Date() %>"/>
-	<h3 align="center">New Time on server : ${newTime}</h3>
-	<hr>
 </body>
 </html>
